@@ -2,8 +2,9 @@
     "name": "vscode-r-arrow",
     "displayName": "R Arrow Operator",
     "description": "Adds Alt+- shortcut for R arrow operator (<-)",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "jaydesl",
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.50.0"
     },
