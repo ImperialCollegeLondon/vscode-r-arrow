@@ -1,0 +1,26 @@
+{
+    "name": "vscode-r-arrow",
+    "displayName": "R Arrow Operator",
+    "description": "Adds Alt+- shortcut for R arrow operator (<-)",
+    "version": "0.0.1",
+    "publisher": "jaydesl",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": ["Keymaps"],
+    "contributes": {
+        "keybindings": [{
+            "key": "alt+-",
+            "command": "type",
+            "when": "editorTextFocus && editorLangId == r",
+            "args": {
+                "text": " <- "
+            }
+        }]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ImperialCollegeLondon/vscode-r-arrow"
+    },
+    "license": "BSD-3-Clause"
+}
